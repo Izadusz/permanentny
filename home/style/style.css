@@ -1,0 +1,111 @@
+section, 
+footer {
+    padding: 60px 0px;
+}
+
+h1 {
+    font-family: 'Roboto Black 900', sans-serif; 
+    font-size: 50px;    
+}
+
+h2 {
+    font-size: 20px; 
+}
+
+.top {
+    background-color: #a610f7;
+    color: white;
+    padding-top: 10px;   
+}
+
+.ola {
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.picture {
+    max-width: 300px;
+    justify-content: center;    
+}
+
+.menu {
+    background-color: #e8b9ff; 
+}
+
+.dropdown-menu {
+    background-color: #d17cfc;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+@media all and (max-width: 1200px) {
+    .nav-item {
+    padding-right: 20px;
+    }
+}
+@media all and (max-width: 997px) {
+    .nav-item {
+    font-size: 15px;
+    padding-right: 10px;
+    }
+}
+
+.introduction {
+    background-color: #d17cfc;
+}
+
+.infobox-inner {
+    text-align: center;    
+}
+
+.card-img-overlay {
+    position: absolute;
+}
+
+.services {
+    background-color:  #eac4fd;
+}
+
+.corners {
+    border-radius: 10px;  
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+.btn {
+    font-size: 40px;
+    font-family: 'Roboto', serif; 
+    text-transform: uppercase;
+    backdrop-filter: blur(5px);
+    width: 250px;
+    height: 260px;
+}
+
+:hover {
+backdrop-filter: blur(0);
+}
+
+p, .limits {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 100px;
+}
+
+h4, h5 {
+    padding: 10px 100px;    
+}
+
+h3 {
+    padding: 10px 100px;
+    text-transform: uppercase;
+}
+
+
+.image {
+ width: 560px;
+ height: 315px;
+
+}
